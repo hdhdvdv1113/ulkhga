@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+#container{
+    width : 70%;
+    height : 500%;
+    margin : auto; /* 가운데 정렬 */
+    background-color: rgba(241, 196, 15, 0.21);
+}
+#kh{
+    font-style: normal;
+    width: 100%;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 500;
+    place-items: center;
+    padding-left: 38px;
+}
+#logo {
+    width : 30%;
+    height : 100px;
+    line-height: 10px; /* 행간 높이 조정 */
+    padding-left : 15px; /* 왼쪽 여백 주기 */
+    float : left;
+    padding-top: 30px;
+}
+header{
+    width : 100%;
+    height : 150px; /* header 영역 크기 설정 */
+    background-color: rgb(44, 62, 80);
+}
+nav {
+    width : 60%;
+    height: 150px;
+    float : right; /* nav 영역 오른쪽으로 붙이기 */   
+    background-color: rgb(44, 62, 80);
+}
+#topMenu{
+    width: 100%;
+}
+#topMenu li {
+    padding-top: 50px;
+    float : left; /* 인라인 속성으로 만들기 */
+    padding: 50px 20px;
+}
+#topMenu > li > a {
+    font-size : 28px;
+    color : #fff;
+    font-weight: 600;
+}
+.business {
+    font-size: 35px;
+    padding-left : 15px; /* 왼쪽 여백 주기 */
+}
+
+
+
+
+
+
+
+
+.contents{
+    width: 100%;
+    height: 800px;
+
+}
+.slide{
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slide input[type=radio]{
+    display: none;
+}
+.slide > .imgs
+{
+    border: 3px solid #fff;
+    height: 1200px;
+}
+#img1{
+    width: 100%;
+    height: 400px;
+}
+#img2{
+    width: 100%;
+    height: 400px;
+}
+#img3{
+    width: 100%;
+    height: 400px;
+}
+#img4{
+    width: 100%;
+    height: 400px;
+}
+.bullets{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    z-index: 2;
+}
+.bullets label{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.55);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+} 
+ul.imgs{
+    padding: 0;
+    margin: 0;
+    list-style: none;    
+}
+ul.imgs li{
+    position: absolute;
+    /* left: 640px; */
+    transition-delay: 1s; /* 새 슬라이드가 이동해 오는 동안 이전 슬라이드 이미지가 배경이 보이도록 지연 */
+
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.detail{
+    width: 100%;
+    height: 300px;
+}
+.detail > img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    float : left; /* 인라인 속성으로 만들기 */
+} 
+#businessImg{
+    place-items: center;
+}
+#bs1{
+    width: 33%;
+    height: 850%;
+    float : left; /* 인라인 속성으로 만들기 */
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+
+    height: 300px;
+}
+#bsImg-1{
+    width: 100%;
+    height: 100%;
+}
+#bs2{
+    width: 33%;
+    height: 80%;
+    float : left; /* 인라인 속성으로 만들기 */
+    padding-top: 10px;
+    padding-left: 30px;
+    height: 300px;
+}
+#bsImg-2{
+    width: 100%;
+    height: 100%;
+}
+#bs3{
+    width: 33%;
+    height: 80%;
+    float : left; /* 인라인 속성으로 만들기 */
+    padding-top: 10px;
+    padding-left: 30px;
+    height: 300px;
+    padding-right: 40px;
+
+}
+#bsImg-3{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bottomMenu{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(44, 62, 80); 
+}
+#botTop{
+    width: 100%;
+    height: 130px;
+    line-height: 10px; /* 행간 높이 조정 */
+    font-size: 70px;
+    display: grid;
+    place-items: center;
+}
+#botBot{
+    height: 100px;
+}
+#botRight{
+    float: right;
+}
+#botleft{
+    width : 50%;
+    height : 100px;
+    float : left; /* nav 영역 오른쪽으로 붙이기 */   
+    background-color: rgb(44, 62, 80);
+    display: grid;
+    place-items: center;
+}
+#botleft li {
+    float : left; /* 인라인 속성으로 만들기 */
+}
+#botleft li  > a {
+    font-size : 20px;
+    color : #fff;
+    font-weight: 300;
+}
+#botright{
+    width : 50%;
+    height : 100px;
+    float : right; /* nav 영역 오른쪽으로 붙이기 */   
+    background-color: rgb(44, 62, 80);
+    display: grid;
+    place-items: center;
+}
+#botright li {
+    float : right; /* 인라인 속성으로 만들기 */
+}
+#botright li  > a {
+    font-size : 40px;
+    color : #fff;
+    font-weight: 350;
+}

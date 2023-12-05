@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KH가설</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/ui_main.css">
+    <style>
+                #kh{
+            padding-left: 38px;
+        }
+        main{
+            background-color: white;
+        }
+        .contents{
+            width: 100%;
+            height: 100%;
+            border: 20px solid rgba(241, 196, 15, 0.21);
+        }
+        div{
+            height: 500px;
+        }
+        span{
+            /* border: 2px solid slateblue; */
+            padding: 2%;
+            background-color: whitesmoke;
+        }
+        #span-left{
+            width: 50%;
+            height: 500px;
+            float: left;
+            padding-left: 5%;
+        }
+        #span-right{
+            width: 50%;
+            height: 500px;
+            float: right;
+            padding-right: 5%;
+        }
+        #img1,#img2{
+            width: 48%;
+            height: 65%;
+            padding-left: 40px; 
+        }
+        /* #topMenu >  ul > li {display: none;} */
+        #topMenu >  li > ul {
+            opacity: 0;
+            position: absolute;       /* 부모를 기준으로 위치 좌표 설정 */
+            width: 200px;             /* 너비를 180px 로 만들기 */
+            list-style-type: none;    /* 서브 리스트의 li 표시 지우기 */
+            padding: 0%;               /* 서브 리스트의 패딩값 없애기 */
+            font-size: 20px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+        }
+        #topMenu > ul > li {
+            padding-bottom: 1%
+        }
+        #topMenu > li:hover ul {
+            opacity: 1;     
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <a href="../index.html">
+                    <h1 id="kh">KH가설</h1>
+                </a>
+            </div>
+        <nav>
+            <ul id="topMenu" class="topMenu">
+                <li><a href="../introduction/introduction.html" >기업소개</a></li>
+                <li><a href="./business.html">사업분야</a>
+                    <ul><a href="../lease/lease.html">자재임대</a></ul>
+                </li>
+                <li><a href="../constructionEx/constructionEx.html">시공사례</a></li>
+                <li><a href="../inquiry/inquiry.html">견적문의</a></li>
+                <li><a href="../cutomNotice/cutomNotice.html">고객센터</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main class="contents"">
+            <div style="height: 800px; overflow: auto; background-color:rgba(241, 196, 15, 0.21);">
+                <p style="font-size: 30px; text-decoration: underline; 
+                padding-top: 5px; text-align: center; padding-left: 17px;" 
+                >사업분야</p>
+                <div>
+                    <span id="span-left" >
+                        <br>
+                        <h3>
+                        강관 비계 | 시스템 비계
+                        <h4>설치 / 해체</h4><br>
+                        <h5><b>특징</b><br></h5>
+                        <h6>
+                            건설 현장의내, 외벽 추가 공사를 돕는 비계 기능을 기하학적으로 조립한 공사로, 대상
+                            구조물을 주변으로 부터 
+                            완전히 차단 격리합니다.
+                        </h6>
+                        <h5><b>용도</b></h5>
+                        <h6>
+                            드라이비트공사 | 석 공사 | 인테리어 공사 | 페인트 공사 | 조경, 전기 공사 | 무대, 
+                            이벤트 시설 
+                        </h6>
+                        <h5><b>종류</b></h5>
+                        <h6>강관 비계 | 시스템 비계<br>
+                        - 강관 비계(쌍줄비계, 수평 비계, 달 비계) <br>
+                        임의로 현장 상황에 맞추어 설치할 수 있어 설치공간에 대한 제약이 적어 다양한 공간에서
+                        활용할 수 있습니다.
+                        <br>- 시스템 비계 (ES700) <br>
+                        구조계산과 도면작업을 통하여 규격화되어 설치됩니다. 빠른 시공에 효과적이며 강관 비계에
+                        비해 상대적으로 안정성이 높습니다.
+                    </h6>
+                        </h3>
+                    </span>
+                    <span id="span-right">
+                        <a href="../constructionEx/constructionEx.html"><img src="../images/businessImg1.jpg" style="width: 100%;
+                            height: 440px;"></a></span>
+                    </span>
+                </div>
+                <div>
+                <span id="span-left"><a href="../constructionEx/constructionEx.html"><img src="../images/businessImg2.jpg" style="width: 100%;
+                    height: 440px;"></a></span>
+                    <span id="span-right">
+                        <br>
+                        <h3>
+                        건설용 가설휀스
+                        <h4>설치 / 해체 / </h4><br>
+                        <h5><b>특징</b><br></h5>
+                        <h6>
+                            공사 현장에서 발생하는 비산먼지,소음을 차단하고 보행자 보호 및 통행 안전을 확보하여
+                            사고를 방지 하기 위해 설치되는 가설 울타리 입니다. 설치,시공이 간단하고 견고하며 용도에맞게
+                            응용 조립,제작,설치가 용이하여 가장 널 이용되고있는 휀스입니다.
+                        </h6>
+                        <h5><b>용도</b></h5>
+                        <h6>
+                            공사 현장의 비산먼지, | 소음 차단 | 공사 현장 대지 경계 | 작업장 안전 확보 | 
+                            보행자 통행 안전 확보 | 가설 담장 | 아파트 현장 | 공사 현장,먼지 소음으로 인한 시민 민원 예방|  
+                        </h6>
+                        <h5><b>종류</b></h5>
+                        <h6>너비 530mm | 높이 1800mm~3000mm | 두께 0.5T ~ 1.0T<br>
+                            소재 전기아연도금강판
+                    </h6>
+                    </span>
+            </div>
+            <div>
+                <span id="span-left" >
+                    <br>
+                    <h3>
+                    플라잉넷 | 방호선반
+                    <h4>설치 / 해체</h4><br>
+                    <h5><b>특징</b><br></h5>
+                    <h6>
+                        건설 현장 외벽 으로부터 사물의 낙하 및 사람의 추락 으로 인한 재해 위험을
+                        방지하기위하여 산업안전보건기준에 근거하여 높이 10M 이상의 신축건축물에 
+                        설치하여야 하는 망형태의 안전시설물 입니다.
+                        
+                    </h6>
+                    <h5><b>용도</b></h5>
+                    <h6>
+                        10M 이상높이에서의 추락및 낙하 방지  
+                    </h6>
+                    <h5><b>종류</b></h5>
+                    <h6>플라잉 넷(F/N) | 시스템 넷(S/N)<br>
+                    <h5><b>설치기준</b></h5>
+                        - 망부분은 가설기자재 성능점검 합격품을 사용한다.<br>
+                        - 높이 10M 이내 간격으로 건축물 또는 비계외측에 설치.<br>
+                        - 내민 길이는 벽면으로부터 2M 이상 돌출. <br>
+                        - 방호망의 수평면 각도는 지면으로부터 20도~30도<br>
+
+                </h6>
+                    </h3>
+                </span>
+                <span id="span-right">
+                    <a href="../constructionEx/constructionEx.html"><img src="../images/businessImg3.jpg" style="width: 100%;
+                        height: 440px;"></a></span>
+                </span>
+            </div>
+            <div>
+                <span id="span-left"><a href="../lease/lease.html"><img src="../images/businessImg4.jpg" style="width: 100%;
+                    height: 440px;"></a></span>
+                <span id="span-right">
+                    <br>
+                    <h3>
+                    자재 임대 / 판매
+                    <br>
+                    <h5>KH 가설에서 취급하는 모든자재 KS 인증마크 보유 및 한국비계 기술원의 시험성적서,인증서 로 
+                        승인 받은 자재만을 취급합니다. </h5><br>
+                        <img src="../images/businessImg5.jpg.png" alt="" id="img1">
+                        <img src="../images/businessImg6.jpg.png" alt="" id="img2">
+                </span>
+        </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </main>
+        <footer>
+            <section id="bottomMenu">
+                <div id="botTop">
+                    <ul>
+                        <li><a href="#" id="kh">KH가설</a></li>
+                    </ul>
+                </div>
+                <div id="botBot">
+                    <ul id="botleft">
+                        <li><a href="#"> Taepyeong Engineering&Construction <br>
+                            주소 : 서울시 중구 남대문로 120 대일빌딩 2층, 3층 |<br>
+                            대표 : 민봉식  사업자등록번호 : 000-00-00000  |<br>
+                                메일문의 : hdhdvdv1113@slack.com |</li>
+                    </ul>
+
+                    <ul id="botright">
+                    <li><a href="#" id="botRight">기업문의 02.0000.0000</a></li>
+                    </ul>
+                </div>
+            
+            </section>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
